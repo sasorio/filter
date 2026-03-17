@@ -22,6 +22,7 @@ import org.jspecify.annotations.NullMarked;
  *
  * @param name the stable identifier for this filter type
  * @param <F> the filter associated with this type
+ * @since 1.0.0
  */
 @NullMarked
 @SuppressWarnings("unused")
@@ -30,30 +31,35 @@ public record FilterType<F extends Filter>(String name) {
    * Filter type for {@link AllFilter}.
    *
    * @see AllFilter
+   * @since 1.0.0
    */
   public static final FilterType<AllFilter> ALL = new FilterType<>("all");
   /**
    * Filter type for {@link AnyFilter}.
    *
    * @see AnyFilter
+   * @since 1.0.0
    */
   public static final FilterType<AnyFilter> ANY = new FilterType<>("any");
   /**
    * Filter type for {@link ConstantFilter}.
    *
    * @see ConstantFilter
+   * @since 1.0.0
    */
   public static final FilterType<ConstantFilter> CONSTANT = new FilterType<>("constant");
   /**
    * Filter type for {@link NotFilter}.
    *
    * @see NotFilter
+   * @since 1.0.0
    */
   public static final FilterType<NotFilter> NOT = new FilterType<>("not");
   /**
    * Filter type for {@link OneFilter}.
    *
    * @see OneFilter
+   * @since 1.0.0
    */
   public static final FilterType<OneFilter> ONE = new FilterType<>("one");
 }

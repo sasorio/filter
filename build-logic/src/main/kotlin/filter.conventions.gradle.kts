@@ -7,7 +7,7 @@ plugins {
 }
 
 indra {
-  github("sasorio", "event") {
+  github("sasorio", "filter") {
     ci(true)
   }
 

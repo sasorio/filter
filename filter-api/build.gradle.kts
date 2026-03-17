@@ -1,5 +1,5 @@
 plugins {
-  id("event.conventions")
+  id("filter.conventions")
 }
 
 dependencies {
