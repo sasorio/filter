@@ -7,6 +7,7 @@ pluginManagement {
 }
 
 plugins {
+  id("net.kyori.indra.publishing.central") version "4.1.0"
   id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 
